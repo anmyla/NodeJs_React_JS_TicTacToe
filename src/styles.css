@@ -69,6 +69,7 @@ body {
   padding: 0;
   text-align: center;
   width: 50px;
+  color: #5d4a84;
 }
 
 .board-row:after {
@@ -81,7 +82,7 @@ body {
   margin-bottom: 10px;
   font-size: large;
   font-weight: 600;
-  color:rgb(64, 62, 99);
+  color:rgb(93, 90, 142);
 }
 .game {
   display: flex;
@@ -94,11 +95,17 @@ body {
 }
 
 .game-info button{
-  background-color: rgb(165, 166, 238);
+  background-color: rgb(168, 169, 239);
   border: 1px solid #f0f0f0;
   margin-left: 0px;
+  color: #ffffff;
 }
 
 .game-info li{
   margin-left: -25px;
+}
+
+.game-info ::marker {
+  color: #8d6fc3;
+  font-size: 14px;
 }
